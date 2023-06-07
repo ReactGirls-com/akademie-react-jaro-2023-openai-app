@@ -4,7 +4,7 @@ export const ExplainCode = () => {
   const [value, setValue] = useState("");
   const [explanation, setExplanation] = useState("");
 
-  const [error, setError] = useState("");
+  const [error, setError] = useState();
   const [loading, setLoading] = useState(false);
 
   const handleChange = (event) => {
