@@ -44,9 +44,6 @@ export const ExplainCode = () => {
       .finally(() => setLoading(false));
   };
 
-  console.log(error);
-  console.log(error.message);
-
   return (
     <div className="container">
       <h1>Explain code</h1>
